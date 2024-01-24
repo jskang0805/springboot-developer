@@ -2,9 +2,9 @@ package me.kangjisun.springbootdeveloper;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-import javax.swing.*;
-
+@EnableJpaAuditing // created_at, update_at 자동업데이트
 @SpringBootApplication
 public class SpringBootDeveloperApplication {
     public static void main(String[] args) {
