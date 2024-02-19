@@ -1,2 +1,10 @@
-package me.kangjisun.springbootdeveloper.dto;public class CreateAccessTokenRequest {
+package me.kangjisun.springbootdeveloper.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class CreateAccessTokenRequest {
+    private String refreshToken;
 }

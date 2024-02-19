@@ -1,2 +1,10 @@
-package me.kangjisun.springbootdeveloper.dto;public class CreateAccessTokenResponse {
+package me.kangjisun.springbootdeveloper.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
+public class CreateAccessTokenResponse {
+    private String accessToken;
 }
